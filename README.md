@@ -10,15 +10,10 @@
 - **বড় লেখায় পড়ুন** — বড় ফন্টে লাইন, প্রতি লাইনে 🔊
 - একবার AI ব্যাখ্যা আনা হলে ফোনে সেভ থাকে → পরে ইন্টারনেট ছাড়াই দেখা যায়
 
-## ১. অনলাইনে তোলা (ফ্রি, ৫ মিনিট)
-```bash
-cd app && npm install && npm run build
-```
-তারপর যেকোনো একটা:
-- **সবচেয়ে সহজ:** https://app.netlify.com/drop খুলে `app/dist` ফোল্ডারটা টেনে ছেড়ে দাও → `https://….netlify.app` লিংক পাবে।
-- অথবা GitHub Pages / Cloudflare Pages-এ `dist` ফোল্ডার।
+## ১. লাইভ লিংক
+**https://fahmidhasann.github.io/porar-sathi/**
 
-(HTTPS লাগবে — নাহলে ইনস্টল আর Share কাজ করবে না। উপরের সবগুলোতেই HTTPS আছে।)
+`main` ব্রাঞ্চে push করলেই GitHub Actions নিজে থেকে build করে আবার deploy করে (`.github/workflows/deploy.yml`)। আম্মুর ফোনের অ্যাপ পরের বার খুললে নতুন ভার্সন পেয়ে যাবে।
 
 ## ২. আম্মুর ফোনে সেটআপ (একবার)
 1. ফোনে **Chrome** দিয়ে লিংকটা খোলো → ⋮ মেনু → **"Add to Home screen" / "Install app"**।
