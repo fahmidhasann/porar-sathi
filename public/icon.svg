@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="0" fill="#0f766e"/>
+  <path d="M96 150c56-22 110-22 160 10v230c-50-30-104-30-160-10z" fill="#fffaf2"/>
+  <path d="M416 150c-56-22-110-22-160 10v230c50-30 104-30 160-10z" fill="#fde68a"/>
+  <text x="336" y="300" font-family="Noto Sans Bengali, Kohinoor Bangla, sans-serif" font-size="110" font-weight="700" text-anchor="middle" fill="#0f766e">অ</text>
+  <text x="176" y="300" font-family="Helvetica, Arial, sans-serif" font-size="110" font-weight="700" text-anchor="middle" fill="#0f766e">A</text>
+</svg>

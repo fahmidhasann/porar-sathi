@@ -1,0 +1,22 @@
+{
+  "name": "porar-sathi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "idb-keyval": "^6.2.1",
+    "pdfjs-dist": "^4.10.38",
+    "workbox-core": "^7.3.0",
+    "workbox-precaching": "^7.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-pwa": "^1.0.0"
+  }
+}
