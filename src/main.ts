@@ -57,7 +57,6 @@ async function renderHome(root: HTMLElement) {
       h('h1', {}, 'পড়ার সাথী'),
       h('p', {}, 'ইংরেজি ক্লাসের PDF বাংলায় সহজে বুঝুন')),
     h('main', { class: 'home' },
-      !settings.apiKey && h('a', { class: 'notice', href: '#/settings' }, '⚙️ বাংলা ব্যাখ্যা চালু করতে একবার সেটআপ লাগবে (ছেলে/মেয়েকে দেখান)'),
       h('button', { class: 'btn btn-big', onclick: () => input.click() }, '📄 নতুন PDF খুলুন'),
       input,
       h('p', { class: 'muted small center' }, 'অথবা WhatsApp-এ PDF-এর উপর চেপে ধরে → Share → "পড়ার সাথী"'),
